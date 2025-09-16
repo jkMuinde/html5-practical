@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Banana World - Media</title>
+</head>
+<body>
+  <header>
+    <h1>Banana Media</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="media.html">Media</a> |
+      <a href="extras.html">Extras</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Banana Pictures</h2>
+    <picture>
+      <source srcset="banana-large.jpg" media="(min-width: 800px)">
+      <source srcset="banana-medium.jpg" media="(min-width: 400px)">
+      <img src="banana-small.jpg" alt="Banana bunch">
+    </picture>
+
+    <h2>Banana Song</h2>
+    <audio controls>
+      <source src="banana-song.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <h2>Banana Video</h2>
+    <video controls width="500">
+      <source src="banana-video.mp4" type="video/mp4">
+      Sorry, your browser doesn’t support embedded videos.
+    </video>
+  </main>
+</body>
+</html>
